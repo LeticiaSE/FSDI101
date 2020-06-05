@@ -1,0 +1,67 @@
+/* global */
+
+body{
+    font-family: 'Krub', sans-serif;
+}
+
+p{
+    line-height: 2;
+    font-size: 14px;
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+
+h1{
+    font-size: 35px;
+}
+
+h2{
+    font-size: 28;
+}
+
+h3{
+    font-size: 20px;
+    color: #073f74;
+}
+
+/* header*/
+
+header{
+    background-image: url(SD.png);
+    color: rgb(6, 103, 110);
+    height: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+.icon{
+    display: flex;
+    align-items: center; /*vertical align*/
+    justify-content: space-evenly; /* horizontal align*/
+
+    width: 100px;
+    height: 100px;
+    background-color: #ffe187;
+    border-radius: 50%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon i{
+    font-size: 22px;
+    color: #212121;
+}
+
+main{
+    text-align: center;
+}
+
+main p{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
