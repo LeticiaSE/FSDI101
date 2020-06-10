@@ -1,0 +1,164 @@
+/* global */
+
+body{
+    font-family: 'Krub', sans-serif;
+}
+
+p{
+    line-height: 2;
+    font-size: 14px;
+}
+
+h1,h2,h3{
+    text-align: center;
+}
+
+h1{
+    font-size: 35px;
+}
+
+h2{
+    font-size: 28;
+}
+
+h3{
+    font-size: 20px;
+    color: #073f74;
+}
+
+/* header*/
+
+header{
+    background-image: url(SD.png);
+    background-repeat: none;
+    color: rgb(6, 103, 110);
+    height: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+.icon{
+    display: flex;
+    align-items: center; /*vertical align*/
+    justify-content: space-evenly; /* horizontal align*/
+
+    width: 100px;
+    height: 100px;
+    background-color: #ffe187;
+    border-radius: 50%;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icon i{
+    font-size: 22px;
+    color: #212121;
+}
+
+main{
+    text-align: center;
+}
+
+main p{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: justify;
+}
+
+/* menu */
+
+.menu{
+    background-color: #212121;
+    columns: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-size: 26px;
+    margin-right: 50px;
+}
+
+.menu a:hover{
+    color: #ffe187;
+    /*font-size: 28px;
+    background-color: black;*/
+
+}
+
+/*list*/
+ul, ol{
+    list-style-image: url(icon.png);
+    background-color:#212121;
+    padding: 20px;
+    color: white;
+    width:50%;
+}
+
+li{
+    background-color: #3b3b3b;
+    padding: 5px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+li:hover{
+   background-color: #212121;
+   color: #03818a; 
+}
+
+/* button style*/
+.btn{
+    background-color: #03818a;
+    color: white;
+    font-size: 18px;
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+
+/*Presentation card*/
+
+.card {
+    background-color: #ffe187;
+    color: black;
+    width: 60%;
+    border: 2px solid  rgb(90, 219, 174);
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+}
+
+.card p{
+    font-size: 20px;
+}
+
+.main-contact{
+    height: 60vh;
+}
+
+
+/*
+ol{
+    list-style-type: lower-greek;
+    background-color: #3399ff;
+    padding: 20px;
+}*/
+
+/*ol li{
+    background-color: #cce5ff;
+    padding: 5px;
+    margin-left: 20px;
+}*/
