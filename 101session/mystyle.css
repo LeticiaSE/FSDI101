@@ -9,6 +9,10 @@ p{
     font-size: 14px;
 }
 
+img {
+    width: 80%;
+}
+
 h1,h2,h3{
     text-align: center;
 }
@@ -16,27 +20,75 @@ h1,h2,h3{
 h1{
     font-size: 35px;
 }
-
+⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣⁣
 h2{
     font-size: 28;
+    color: #3D6E80;
 }
 
 h3{
     font-size: 20px;
-    color: #073f74;
+    color: #7C9EA6;
 }
 
 /* header*/
 
 header{
-    background-image: url(SD.png);
+    background-image: url(Bg0.jpeg);
     background-repeat: none;
-    color: rgb(6, 103, 110);
+    color:#401F0C;
     height: 300px;
     width: 100%;
     text-align: center;
 }
+/*FFC5C9 • FEEEE6 • 79E2DD*/
+/*Imagenes Home*/
+/*Bio*/
+.bio {
+    width: 700px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+       
+    background-color:#BBD8F0;
+  /*  border-style: ridge ;*/
+    border-radius: 60px;
+}
 
+/*academic*/
+.academic {
+    width: 700px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+       
+    background-color:#BBF0EB;
+    border-radius: 60px;    
+}
+
+/*family*/
+.family {
+    width: 700px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+       
+    background-color:#B4D2D9;
+    border-radius: 60px;    
+}
+
+/*friends*/
+.friends {
+    width: 700px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+       
+    background-color:#B3E6D3;
+    border-radius: 60px;    
+}
+
+/**/
 .icon{
     display: flex;
     align-items: center; /*vertical align*/
@@ -58,10 +110,11 @@ header{
 
 main{
     text-align: center;
+    color: #401F0C;
 }
 
 main p{
-    width: 800px;
+    width: 700px;
     margin-left: auto;
     margin-right: auto;
     text-align: justify;
@@ -70,8 +123,8 @@ main p{
 /* menu */
 
 .menu{
-    background-color: #212121;
-    columns: white;
+    background-color: #7C9EA6;
+    columns:#71BBD1;
     padding: 30px;
     text-align: center;
 }
@@ -84,7 +137,7 @@ main p{
 }
 
 .menu a:hover{
-    color: #ffe187;
+    color:#B4D2D9;     /* cambio de color en letras*/
     /*font-size: 28px;
     background-color: black;*/
 
@@ -92,35 +145,35 @@ main p{
 
 /*list*/
 ul, ol{
-    list-style-image: url(icon.png);
-    background-color:#212121;
+    list-style-image: url(rubik.png);
+    background-color:#9FB9BF;
     padding: 20px;
     color: white;
     width:50%;
 }
 
 li{
-    background-color: #3b3b3b;
+    background-color: #7F9499;
     padding: 5px;
     margin-left: 20px;
     margin-bottom: 5px;
 }
 
 li:hover{
-   background-color: #212121;
-   color: #03818a; 
+   background-color: #4A5659;
+   color: #D9C89E; 
 }
 
 /* button style*/
 .btn{
-    background-color: #03818a;
+    background-color:#8C4E2A;
     color: white;
     font-size: 18px;
     display: block;
     width: 200px;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 .btn a{
@@ -131,10 +184,10 @@ li:hover{
 /*Presentation card*/
 
 .card {
-    background-color: #ffe187;
+    background-color: white;
     color: black;
-    width: 60%;
-    border: 2px solid  rgb(90, 219, 174);
+    width: 50%;
+    border: 3px solid  #84BDB8;
     margin-top: 50px;
     margin-right: auto;
     margin-left: auto;
